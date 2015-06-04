@@ -1,0 +1,13 @@
+require 'colorize'
+require 'ansi'
+require 'readline'
+
+require 'ghcli/terminal/base_window'
+require 'ghcli/terminal/base_main_area'
+require 'ghcli/terminal/ask_current_window'
+require 'ghcli/terminal/ask_login_window'
+require 'ghcli/terminal/eval_window'
+require 'ghcli/terminal/standard_window'
+require 'ghcli/terminal/term'
+require 'ghcli/terminal/areas/list_issues_area'
+require 'ghcli/terminal/areas/show_issue_area'
